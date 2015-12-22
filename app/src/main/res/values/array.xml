@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colors">
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        </string-array>
+    <string-array name="codigo_colors">
+        <item>Color.RED</item>
+        <item>Color.GREEN</item>
+        <item>Color.BLUE</item>
+    </string-array>
+    <string-array name="redes">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Tindlr</item>
+        <item>Badoo</item>
+        <item>Tuenti</item>
+    </string-array>
+
+</resources>

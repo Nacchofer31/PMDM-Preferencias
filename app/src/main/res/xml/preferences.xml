@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="opciones_datos"
+        android:title="Datos"
+        android:persistent="false"
+        >
+
+<EditTextPreference
+    android:key="opcion1"
+    android:title="Email"
+    android:summary="Email del usuario"
+    android:dialogTitle="Introduce email"
+    />
+    <ListPreference
+        android:key="opcion2"
+        android:title="Color de Fondo"
+        android:summary="Color de la Pantalla"
+        android:dialogTitle="Selecciona un color"
+        android:entries="@array/colors"
+        android:entryValues="@array/codigo_colors"
+    />
+    <ListPreference
+        android:key="opcion3"
+        android:title="Color de la Fuente"
+        android:summary="Color de la Fuente"
+        android:dialogTitle="Selecciona un color"
+        android:entries="@array/colors"
+        android:entryValues="@array/codigo_colors"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="opciones_redes"
+        android:title="Redes Sociales"
+        android:persistent="false"
+        >
+        <PreferenceScreen
+            android:title="Elige tu red social favorita"
+            android:key="red"
+            android:persistent="false"
+            >
+            <ListPreference
+                android:key="red_lista"
+                android:title="Redes"
+                android:summary="Redes Sociales"
+                android:dialogTitle="Selecciona una res social"
+                android:entries="@array/redes"
+                android:entryValues="@array/redes"
+                >
+            </ListPreference>
+        </PreferenceScreen>
+            </PreferenceCategory>
+
+</PreferenceScreen>
